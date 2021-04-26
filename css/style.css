@@ -36,6 +36,12 @@ h3 {
     }
   }
 
+#title {
+    background: url("http://p-schub.lima-city.de/01-project-cv/img/application-website.png");
+    height: 100vh;
+    width: 100vw;
+}
+
 .skill {
     display: flex;
     justify-content: space-between;
@@ -53,7 +59,7 @@ h3 {
       rgba(255, 153, 0, 0.9) 50%,
       rgba(255, 102, 0, 0.9) 100%
     ),
-    url("/Users/e-results/Documents/cv/img/skill-bg.png");
+    url("http://p-schub.lima-city.de/01-project-cv/img/skill-bg.png");
     min-height: 150px;
 }
 @media only screen and (max-device-width: 768px) {
