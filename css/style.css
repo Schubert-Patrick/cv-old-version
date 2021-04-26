@@ -1,0 +1,84 @@
+body {
+    background-color: #d9d9e4;
+    /* background-color: #d9e4dd; */
+}
+
+hr {
+    border-style: none;
+    /* border-bottom: dotted; */
+    width: 10%;
+    border-width: 10px;
+    border-color: #111111;
+}
+
+img {
+    width: 100vw;
+    height: 250px;
+    border-radius: 50%;
+}
+
+h1,
+h3 {
+    color: #555555;
+}
+
+/* Navbar sub-menu Dropdown hover menu */
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+      display: none;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+      display: block;
+    }
+    .navbar .nav-item .dropdown-menu {
+      margin-top: 0;
+    }
+  }
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-bg-img {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+    background-image: 
+    linear-gradient(
+      328deg,
+      #3333ffe6 0%,
+      rgba(255, 153, 0, 0.9) 50%,
+      rgba(255, 102, 0, 0.9) 100%
+    ),
+    url("/Users/e-results/Documents/cv/img/skill-bg.png");
+    min-height: 150px;
+}
+@media only screen and (max-device-width: 768px) {
+    .skill-bg-img {
+      background-attachment: scroll;
+    }
+  }
+
+#revision {
+    min-height: 420px;
+}
+
+.avatar-icon {
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+textarea {
+    width: 100%;
+}
+
+.hr {
+    border-bottom: #111111 2px solid;
+}
