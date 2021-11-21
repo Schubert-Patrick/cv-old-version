@@ -1,0 +1,55 @@
+header {
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+
+#title {
+    position: relative;
+    top: 60px;
+    background-image: linear-gradient(
+        326deg, #798b97, #9ba2a8, #aeb3b7);
+}
+
+.header-text {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 3em;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+@media all and (max-width: 879px) {
+    .bg_img .avatar {
+        background-image: url("https://p-schub.lima-city.de/pschubet-000webhost/img/bewerbung.jpeg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 200px;
+        margin: 30px;
+        border-radius: 50%;
+    }
+}
+
+@media all and (min-width: 880px) {
+    .avatar {
+        display: none;
+    }
+
+    .title-bg-img {
+        background-image: url("http://p-schub.lima-city.de/01-project-cv/img/Bild_3000px.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: calc(100vh - 56px);
+        width: 100%;
+    }
+}

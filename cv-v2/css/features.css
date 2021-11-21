@@ -1,0 +1,18 @@
+#features {
+    /* border: red 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px; 
+    text-align: center;
+    /* background-color: #aeb3b7; */
+    background-color: #c0c0c0;
+}
+
+.icon, .blue-line {
+    /* color: #4E8BC4 ; */
+    /* color: steelblue; */
+    /* color: slategrey; */
+    color: navy;
+}
